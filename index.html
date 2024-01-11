@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           text-decoration: none;
+        }
+
+        body {
+            background: linear-gradient(to right, #3494e6, #ec6ead);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* flex-direction: row; */
+            height: 100vh;
+            margin: 0;
+        }
+        .main{
+            display: flex;
+        }
+        .hello{
+            margin-right: 100px;
+        }
+        .main-page {
+            height: 400px;
+            width: 400px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }        
+        h4{
+  font-size: 19px;
+  color: brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow: hidden;
+  border-right: .15em solid rgb(0, 255, 81);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+        h3 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+            text-align: center;
+        }
+
+         h6 {
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #555;
+            text-align: center;
+        }
+
+        button {
+            padding: 12px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            margin-top:10px;
+            animation: ex 2s infinite ease-out;
+        }
+        
+        @keyframes ex{
+            0%{
+                background-color: #007BFF;
+            }
+            25%{
+                background-color: #ec6ead;
+            }
+            50%{
+                background-color: red;
+            }
+            100%{
+                background-color: aqua;
+            }
+        }
+        button:hover {
+            animation: ex 2s infinite ease-out;
+            background-color: #0056b3;
+        }
+        H5{
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #555;
+            text-align: center;
+            margin-top: 15PX;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="hello">
+            <img src="hello.gif">
+        </div>
+        <div class="main-page">
+            <h3>HELLO</h3>
+            <h4>YASH JI</h4>
+            <h6>KYA HAAL CHAAL H TUMHARE KUCH JAYDA HI UD RHE HO</h6>
+            <button><a href="index2.html">REPORT ME</a></button>
+            <h5>Y BUTTON BHI  TARAHE COLOR BADAL TA H ...AB CLICK KR CHL BUTTON PR</h6>
+        </div>
+        <div class="photo">
+            <img src="" alt="photo">
+        </div>
+    </div>
+</body>
+</html>
